@@ -1,0 +1,11 @@
+target/
+.classpath
+.project
+.settings
+.idea
+*.iml
+*.log
+atlassian-ide-plugin.xml
+git.properties
+event-manager.iml
+node_modules

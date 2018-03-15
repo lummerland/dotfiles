@@ -1,0 +1,17 @@
+[user]
+	email = mkummerlaender@seibert-media.net
+	name = Manuel Kummerländer
+[push]
+	default = simple
+[alias]
+	h = log -n 5 --stat --graph --oneline
+	st = status --short
+[core]
+	excludesfile = /home/mkummerlaender/.gitignore
+	autocrlf = input
+[init]
+	templatedir = ~/.git-template
+[http]
+	sslverify = false
+[credential]
+	helper = store

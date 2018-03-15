@@ -1,0 +1,15 @@
+# Standard syslog entries.
+default rule "WARN"   				--> yellow line
+default rule "ERROR" 				--> red line
+default rule "registering"			--> bold white on red line
+default rule "confluence started successfully" 	--> bold white on green line
+default rule "Quick Reload Finished"		--> bold white on green line
+#default rule "] weaveLogs calling method: "	--> white on blue line
+default rule /\[confluence.[a-z]+.dao.*weaveLogs calling method/ 	--> white on blue line
+default rule /\[confluence.[a-z]+.service.*weaveLogs calling method/	--> white on cyan line
+default rule /onSql SELECT.*\"AO_BCCAB2_/	--> white on magenta line
+default rule /critical/     --> bold red line
+default rule /critical/     --> blank
+default rule /ignore/       --> suppress
+default rule /Use atlassian.[a-z\.]+ instead/ --> suppress
+default rule /-- referer\: http\:\/\/localhost\:1990\/confluence/ --> suppress
