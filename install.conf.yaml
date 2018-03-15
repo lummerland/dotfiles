@@ -1,22 +1,24 @@
 - defaults:
-	link:
-		create: true
-		relink: true
-		relative: true
+    link:
+        create: true
+        relink: true
+        relative: true
 
 - clean: ['~']
 
 - link:
-	~/.dotfile: ''
-	~/.bash-git-prompt: .bash-git-prompt
-	~/.bashrc: .bashrc
-	~/.clogrc: .clogrc
-	~/.conkyrc: .conkyrc
-	~/.i3status.conf: .i3status.conf
-	~/.taskrc: .taskrc
-	~/.gitignore: .gitignore
-	~/.gitconfig: .gitconfig
-	~/.fehbg: .fehbg
-	~/.config/terminator: 
-		create: true
-		path: .config/terminator
+    ~/.dotfile: ''
+    ~/.bash-git-prompt: .bash-git-prompt
+    ~/.bashrc: .bashrc
+    ~/.clogrc: .clogrc
+    ~/.conkyrc: .conkyrc
+    ~/.i3status.conf: .i3status.conf
+    ~/.taskrc: .taskrc
+    ~/.gitignore: .gitignore
+    ~/.gitconfig: .gitconfig
+    ~/.fehbg: .fehbg
+    ~/.config/terminator: 
+        create: true
+        path: .config/terminator
+    ~/.vimrc: .vimrc     
+
