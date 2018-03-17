@@ -20,5 +20,14 @@
     ~/.config/terminator: 
         create: true
         path: .config/terminator
+    ~/.config/redshift:
+        create: true
+        path: .config/redshift
+    ~/.config/ranger:
+        create: true
+        path: .config/ranger        
+    ~/.config/dunst:
+        create: true
+        path: .config/dunst
     ~/.vimrc: .vimrc     
 
