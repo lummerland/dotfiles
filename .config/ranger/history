@@ -1,0 +1,41 @@
+open_with q
+unzip
+open_with unzip
+flat 
+flat 2
+flat 0
+flat 3
+linemode 
+linemode M
+meta 
+search easing
+search 
+open_with libreoffice
+move 
+move 36
+open_with vi
+open_withq 
+search monkey
+open_with nano
+deqqq
+s
+S
+search s
+setintag 
+open_with vim
+open_with 
+rename 
+rename Zeitbild-Linksextremismus.pdf
+delete
+mkdir 
+copy 
+paste 
+delete 
+shellq q
+cd 
+mark_files 
+enter_dir 
+shell 
+cp qq
+
+cd
